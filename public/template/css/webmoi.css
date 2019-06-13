@@ -1,0 +1,45 @@
+.login{
+   display: flex;
+    width: 100%;position: absolute;
+    height: 100%;
+    line-height: 50px;
+    flex-wrap: nowrap;
+}
+.left li a, .right li a{
+    color: white;
+}
+.right,.left{
+    flex-shrink: 0;
+}
+.right{
+    flex: 30%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.left{
+    flex: 70%;
+    justify-content: space-between;
+}
+.left li:nth-child(1){
+    margin-left: 10px;
+}
+.formlogin{
+    padding: 10px;
+}
+.fix_modal{
+    width: 500px;
+    height: 400px;
+}
+.icon-handbag .icons{
+    position: relative;
+}
+.count-style{
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    right: -15px;
+    top: 0;
+}
+

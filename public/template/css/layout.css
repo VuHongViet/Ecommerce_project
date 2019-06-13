@@ -1,0 +1,283 @@
+
+/*Layout style*/
+/*--- HEADER ---*/
+#header{
+    vertical-align: baseline;
+    padding: 1%;
+}
+
+#search{
+    width: auto;
+    border: 2px solid #e4101c;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    height: 35px;
+    padding: 0px;
+}
+#search input[type='search'] {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    width: 100%;
+    height: 29px;
+    cursor: text;
+    padding-left: 1px;
+}
+
+#search #select-box{
+    border-left: 1px solid gainsboro;
+}
+#search #select-box select{
+    border: none;
+    height: 30px;
+    width: 100%;
+    background: none;
+}
+#search #btnSearch{
+    height: 30px;
+    width: 100%;
+    border: none;
+}
+
+#cart{
+    text-align: right;
+}
+#cart button{
+    border-color:#fff;
+}
+.btn .badge {
+    top:-11px;
+}
+
+.navbar{
+    border-radius: 0px;
+    min-height: 20px;
+    color: #fff;
+}
+nav.navbar-inverse{
+    text-transform: uppercase;
+    background-color: #e4101c;
+    border: 1px solid #e4101c;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:#fff;
+}
+.navbar-inverse .navbar-nav>li:hover{
+    background-color: #9c0b13;
+}
+nav{
+    margin-bottom: 5px;
+    z-index: 150;
+    /*box-shadow: 0 2px 3px rgba(0,0,0,.4);*/
+    color: #fff;
+}
+.navbar-inverse .navbar-brand{
+    color: #fff;
+}
+
+#slide-show{
+    height: 220px;
+}
+
+#slide-show-hot{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.carousel-inner>.item>img{
+    height: 217px;
+}
+.service{
+    height: 107px;
+    text-align: justify;
+    margin-bottom: 5px;
+    position: relative;
+    right: -15px;
+    margin-left: -11px;
+}
+#service2{
+    background-color: coral;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 12%;
+}
+.service a:link, a:hover, a:visited, a:active{
+    text-decoration: none;
+}
+
+#service2:hover{
+    background-color: chocolate;
+}
+
+#product-header{
+    border-bottom: 1px solid gainsboro;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:5px;
+}
+
+#product-list{
+    margin-top: 10px;
+}
+
+#product-list .item-product{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#product{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.item-product{
+    text-align: center;
+    border: 1px solid gainsboro;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 296px;
+    margin-bottom: 10px;
+}
+.item-product:hover{
+    border: 1px solid red;
+}
+
+.item-img{
+    height: 70%;
+}
+.item-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.buy{
+    background-color: orangered;
+    position: relative;
+    margin-top: -20px;
+    z-index: -1;
+}
+.item-name{
+    margin-top: 23px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.item-price{
+    margin-top: 5px;
+}
+.old-price{
+    position: relative;
+    float: right;
+    text-align: right;
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+.new-price{
+    position: relative;
+    float: left;
+    text-align: left;
+    color: red;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#right{
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+#menu-right{
+    border: 1px solid gainsboro;
+    position: relative;
+    right: -15px;
+    padding: 0px;
+    border-top: 2px solid #e4101c
+}
+.menu-right-header{
+    line-height: 30px;
+    background: gainsboro;
+    color: #e4101c;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-right-content{
+    text-align: center;
+}
+.menu-right-content .product-seller{
+    padding:20px;
+    margin: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.product-seller:hover{
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.img-seller img{
+    width: 100%;
+}
+.name-seller{
+    text-align: left;
+}
+.price-seller {
+    position: relative;
+}
+.price-seller .new{
+    float: left;
+    color: #e4101c;
+    font-weight: bold;
+}
+.price-seller .old{
+    float: right;
+    text-decoration: line-through;
+    color:#000;
+}
+#footer-menu{
+    background-color:rgb(235, 231, 231);
+    color:#000;
+}
+#footer-menu h3{
+    text-transform: uppercase;
+}
+#footer-copyright{
+    text-align: center;
+    background-color: #fff;
+    color: #000; 
+    height: 50px;
+    padding-top: 13px;
+}
+
+#path{
+    background-color: gainsboro;
+    color:#000;
+    margin-top: -20px;
+    line-height: 42px;
+}
+#path-content{
+    text-transform: uppercase;
+}
+#filter{
+    margin-top: 5px;
+}
+#filter #filter-content{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#filter-content td.lable{
+    background-color: #fffef6;
+    font-weight: bold;
+}
+
+#filter-content td input[type=checkbox]{
+    border: 1px solid gainsboro;
+}
